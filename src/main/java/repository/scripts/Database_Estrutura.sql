@@ -229,7 +229,7 @@ CREATE TABLE IF NOT EXISTS `PessoaFoto` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `pessoa_id` int(11) NOT NULL,
     `foto` LONGBLOB DEFAULT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 ALTER TABLE `PessoaFoto`
