@@ -4,9 +4,9 @@
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:49001/papers?zeroDateTimeBehavior=convertToNull</property>
-    <property name="hibernate.connection.username">admin9cEctLK</property>
-    <property name="hibernate.connection.password">Tk_aqnsBYeyC</property>
+    <property name="hibernate.connection.url">jdbc:mysql://papers-papers.a3c1.starter-us-west-1.openshiftapps.com:3306/papers?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">papers</property>
+    <property name="hibernate.connection.password">123Perkons</property>
     <mapping class="model.entity.Pessoa"/>
     <mapping class="model.entity.Usuario"/>
     <mapping class="model.entity.Destino"/>
