@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:49001/papers?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">admin9cEctLK</property>
+    <property name="hibernate.connection.password">Tk_aqnsBYeyC</property>
+    <mapping class="model.entity.Pessoa"/>
+    <mapping class="model.entity.Usuario"/>
+    <mapping class="model.entity.Destino"/>
+    <mapping class="model.entity.TipoDocumento"/>
+    <mapping class="model.entity.Documento"/>
+    <mapping class="model.entity.DocumentosPessoas"/>
+    <mapping class="model.entity.DocumentosPessoasFavoritos"/>
+    <mapping class="model.entity.FilaSubmissao"/>
+    <mapping class="model.entity.HistoricoFilaSubmissao"/>
+    <mapping class="model.entity.Notificacao"/>
+    <mapping class="model.entity.PessoaFoto"/>
+  </session-factory>
+</hibernate-configuration>
