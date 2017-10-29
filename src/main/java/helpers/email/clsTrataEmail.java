@@ -34,7 +34,7 @@ public class clsTrataEmail {
     public String enviarEmail(String enderecos, String assunto, String conteudo){ // conteudo poderá ser text ou html
         Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication("papersrs2002@gmail.com", "123MulherNua");
+                    return new PasswordAuthentication("papersrs2002@gmail.com", "12345Perkons");
                 }
             });
         try {
