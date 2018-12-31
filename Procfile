@@ -1,1 +1,1 @@
-web: java -jar target/papers.jar
+web: java -jar target/papers-1.0.jar
